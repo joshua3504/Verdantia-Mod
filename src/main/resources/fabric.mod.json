@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "verdantiamod",
+	"version": "${version}",
+	"name": "Verdantia Mod",
+	"description": "Mod for the Verdantia SMP server.",
+	"authors": [
+		"joshua3504"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/verdantiamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.joshua3504.verdantiamod.VerdantiaMod"
+		],
+		"fabric-datagen": [
+			"net.joshua3504.verdantiamod.VerdantiaModDataGenerator"
+		],
+		"client": [
+			"net.joshua3504.verdantiamod.VerdantiaModClient"
+		]
+	},
+	"mixins": [
+		"verdantiamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
