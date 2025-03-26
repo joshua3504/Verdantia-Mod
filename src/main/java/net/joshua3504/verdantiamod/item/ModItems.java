@@ -9,14 +9,12 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-//    public static final Item MAPLE_PLANKS = registerItem( "maple_planks", new Item(new Item.Settings()));
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(VerdantiaMod.MOD_ID, name), item);
     }
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-//            entries.add(MAPLE_PLANKS);
+
         });
     }
 }

@@ -14,10 +14,11 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup VERDANTIA_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(VerdantiaMod.MOD_ID, "verdantia_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MAPLE_PLANKS))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.REDWOOD_PLANKS))
                     .displayName(Text.translatable("itemgroup.verdantiamod.verdantia_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.MAPLE_PLANKS);
+                        entries.add(ModBlocks.REDWOOD_PLANKS);
+                        entries.add(ModBlocks.PASTEL_YELLOW_CONCRETE);
                     }).build());
 
     public static void registerItemGroups() {
