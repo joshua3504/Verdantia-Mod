@@ -3,6 +3,7 @@ package net.joshua3504.verdantiamod;
 import net.fabricmc.api.ModInitializer;
 
 import net.joshua3504.verdantiamod.block.ModBlocks;
+import net.joshua3504.verdantiamod.item.ModItemGroups;
 import net.joshua3504.verdantiamod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,8 @@ public class VerdantiaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
