@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "verdantiamod:block/pastel_magenta_concrete"
+  }
+}

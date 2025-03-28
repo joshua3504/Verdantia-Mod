@@ -17,8 +17,22 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.REDWOOD_PLANKS))
                     .displayName(Text.translatable("itemgroup.verdantiamod.verdantia_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PALM_WOOD);
+                        entries.add(ModBlocks.WILLOW_PLANKS);
                         entries.add(ModBlocks.REDWOOD_PLANKS);
+
+                        // Pastel concretes
+                        entries.add(ModBlocks.PASTEL_RED_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_ORANGE_CONCRETE);
                         entries.add(ModBlocks.PASTEL_YELLOW_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_LIME_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_GREEN_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_CYAN_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_LIGHT_BLUE_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_BLUE_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_PURPLE_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_MAGENTA_CONCRETE);
+                        entries.add(ModBlocks.PASTEL_PINK_CONCRETE);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,6 +1,19 @@
 {
+  "block.verdantiamod.palm_wood": "Palm Wood",
   "block.verdantiamod.redwood_planks": "Redwood Planks",
+  "block.verdantiamod.willow_planks": "Willow Planks",
+
+  "block.verdantiamod.pastel_red_concrete": "Pastel Red Concrete",
+  "block.verdantiamod.pastel_orange_concrete": "Pastel Orange Concrete",
   "block.verdantiamod.pastel_yellow_concrete": "Pastel Yellow Concrete",
+  "block.verdantiamod.pastel_lime_concrete": "Pastel Lime Concrete",
+  "block.verdantiamod.pastel_green_concrete": "Pastel Green Concrete",
+  "block.verdantiamod.pastel_cyan_concrete": "Pastel Cyan Concrete",
+  "block.verdantiamod.pastel_light_blue_concrete": "Pastel Light Blue Concrete",
+  "block.verdantiamod.pastel_blue_concrete": "Pastel Blue Concrete",
+  "block.verdantiamod.pastel_purple_concrete": "Pastel Purple Concrete",
+  "block.verdantiamod.pastel_magenta_concrete": "Pastel Magenta Concrete",
+  "block.verdantiamod.pastel_pink_concrete": "Pastel Pink Concrete",
 
   "itemgroup.verdantiamod.verdantia_items": "Verdantia"
 }
