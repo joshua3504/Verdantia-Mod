@@ -37,6 +37,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PASTEL_PURPLE_CONCRETE);
                         entries.add(ModBlocks.PASTEL_MAGENTA_CONCRETE);
                         entries.add(ModBlocks.PASTEL_PINK_CONCRETE);
+
+                        // Other
+                        entries.add(ModBlocks.SAND_CONVERTER);
                     }).build());
 
     public static void registerItemGroups() {

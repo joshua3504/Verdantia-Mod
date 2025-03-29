@@ -17,7 +17,8 @@ public class ModTags {
     }
 
     public static class Items {
-//        public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
+        public static final TagKey<Item> CONVERTABLE_TO_SAND = createTag("convertable_to_sand");
+        public static final TagKey<Item> PLANKS = createTag("planks");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(VerdantiaMod.MOD_ID, name));

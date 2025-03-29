@@ -2,10 +2,10 @@ package net.joshua3504.verdantiamod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.joshua3504.verdantiamod.VerdantiaMod;
+import net.joshua3504.verdantiamod.block.custom.SandConverter;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
-import net.minecraft.block.PillarBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -36,6 +36,9 @@ public class ModBlocks {
     public static final Block PASTEL_PURPLE_CONCRETE = registerBlock("pastel_purple_concrete", new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PURPLE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.8F)));
     public static final Block PASTEL_MAGENTA_CONCRETE = registerBlock("pastel_magenta_concrete", new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.8F)));
     public static final Block PASTEL_PINK_CONCRETE = registerBlock("pastel_pink_concrete", new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PINK).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.8F)));
+
+    // Other
+    public static final Block SAND_CONVERTER = registerBlock("sand_converter", new SandConverter(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
