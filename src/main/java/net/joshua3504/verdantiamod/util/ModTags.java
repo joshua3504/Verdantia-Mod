@@ -10,15 +10,14 @@ import net.minecraft.util.Identifier;
 public class ModTags {
     public static class Blocks {
 
-
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(VerdantiaMod.MOD_ID, name));
         }
     }
 
     public static class Items {
-        public static final TagKey<Item> CONVERTABLE_TO_SAND = createTag("convertable_to_sand");
         public static final TagKey<Item> PLANKS = createTag("planks");
+        public static final TagKey<Item> CONVERTABLE_TO_SAND = createTag("convertable_to_sand");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(VerdantiaMod.MOD_ID, name));

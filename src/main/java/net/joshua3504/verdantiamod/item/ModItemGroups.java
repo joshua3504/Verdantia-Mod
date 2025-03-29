@@ -38,6 +38,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PASTEL_MAGENTA_CONCRETE);
                         entries.add(ModBlocks.PASTEL_PINK_CONCRETE);
 
+                        // Dirt variants
+                        entries.add(ModBlocks.DIRT_SLAB);
+
                         // Other
                         entries.add(ModBlocks.SAND_CONVERTER);
                     }).build());

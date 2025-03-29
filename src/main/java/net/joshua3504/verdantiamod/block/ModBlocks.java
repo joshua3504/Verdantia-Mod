@@ -6,6 +6,7 @@ import net.joshua3504.verdantiamod.block.custom.SandConverter;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static final Block PASTEL_PURPLE_CONCRETE = registerBlock("pastel_purple_concrete", new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PURPLE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.8F)));
     public static final Block PASTEL_MAGENTA_CONCRETE = registerBlock("pastel_magenta_concrete", new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.8F)));
     public static final Block PASTEL_PINK_CONCRETE = registerBlock("pastel_pink_concrete", new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PINK).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.8F)));
+
+    // Dirt variants
+    public static final Block DIRT_SLAB = registerBlock("dirt_slab", new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.DIRT_BROWN).strength(0.5f).sounds(BlockSoundGroup.GRAVEL)));
 
     // Other
     public static final Block SAND_CONVERTER = registerBlock("sand_converter", new SandConverter(AbstractBlock.Settings.create().strength(1f).requiresTool()));
@@ -71,6 +75,10 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(ModBlocks.DARK_OAK_BOOKSHELF);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(ModBlocks.DIRT_SLAB);
         });
     }
 }

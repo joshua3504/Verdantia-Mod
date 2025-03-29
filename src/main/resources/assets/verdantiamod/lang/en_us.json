@@ -17,6 +17,8 @@
   "block.verdantiamod.pastel_magenta_concrete": "Pastel Magenta Concrete",
   "block.verdantiamod.pastel_pink_concrete": "Pastel Pink Concrete",
 
+  "block.verdantiamod.dirt_slab": "Dirt Slab",
+
   "block.verdantiamod.sand_converter": "Sand Converter",
   "tooltip.verdantiamod.sand_converter.tooltip_shift_down": "Throw granite on this block to convert it to sand",
   "tooltip.verdantiamod.sand_converter.tooltip": "Press shift for more info",

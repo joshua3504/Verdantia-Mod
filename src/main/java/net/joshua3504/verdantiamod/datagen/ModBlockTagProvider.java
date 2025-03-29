@@ -34,6 +34,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.REDWOOD_PLANKS)
                 .add(ModBlocks.WILLOW_PLANKS)
                 .add(ModBlocks.DARK_OAK_BOOKSHELF);
+
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.DIRT_SLAB);
     }
 
 }
