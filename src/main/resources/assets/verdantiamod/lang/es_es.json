@@ -1,0 +1,25 @@
+{
+  "block.verdantiamod.palm_wood": "Leño de palmera",
+  "block.verdantiamod.redwood_planks": "Tablas de secoya",
+  "block.verdantiamod.willow_planks": "Tablas de sauce",
+
+  "block.verdantiamod.dark_oak_bookshelf": "Librería de roble oscuro",
+
+  "block.verdantiamod.pastel_red_concrete": "Concreto rojo pastel",
+  "block.verdantiamod.pastel_orange_concrete": "Concreto naranja pastel",
+  "block.verdantiamod.pastel_yellow_concrete": "Concreto amarillo pastel",
+  "block.verdantiamod.pastel_lime_concrete": "Concreto verde lima pastel",
+  "block.verdantiamod.pastel_green_concrete": "Concreto verde pastel",
+  "block.verdantiamod.pastel_cyan_concrete": "Concreto cian pastel",
+  "block.verdantiamod.pastel_light_blue_concrete": "Concreto azul claro pastel",
+  "block.verdantiamod.pastel_blue_concrete": "Concreto azul pastel",
+  "block.verdantiamod.pastel_purple_concrete": "Concreto morado pastel",
+  "block.verdantiamod.pastel_magenta_concrete": "Concreto magenta pastel",
+  "block.verdantiamod.pastel_pink_concrete": "Concreto rosa pastel",
+
+  "block.verdantiamod.sand_converter": "Sand Converter",
+  "tooltip.verdantiamod.sand_converter.tooltip_shift_down": "Throw granite on this block to convert it to sand",
+  "tooltip.verdantiamod.sand_converter.tooltip": "Press shift for more info",
+
+  "itemgroup.verdantiamod.verdantia_items": "Verdantia"
+}
